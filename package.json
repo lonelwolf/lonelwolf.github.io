@@ -1,0 +1,21 @@
+{
+  "name": "inicio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss src/styles.css --output css/styles.css",
+    "watch": "postcss src/styles.css --output css/styles.css --watch",
+    "mini": "purgecss --css css/styles.css --content index.hltm -o css/dnt.css",
+    "icon": "purgecss --css css/styles.css --content index.hltm -o css/dnt.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.5",
+    "postcss": "^8.3.7",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.15"
+  }
+}
