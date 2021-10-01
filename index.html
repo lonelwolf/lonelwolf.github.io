@@ -5,293 +5,256 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--css tailwind-->
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/fontawesome.css">
     <link rel="stylesheet" href="css/app.css">
-    
+    <!--css iconos-->
+    <link rel="stylesheet" href="css/fontawesome.css">
     <link rel="stylesheet" href="css/brands.css">
     <link rel="stylesheet" href="css/solid.css">
+    <!--css pernonalizados-->
+    <link rel="stylesheet" href="css/app.css">
+    <!--css owl carousel-->
+    <link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
+
+    <!--animate css-->
+    <link rel="stylesheet" href="css/animate.css">
+    
+    
 </head>
 <body>
-    <div class="container px-4 m-auto " >
+    <div class="container m-auto " >
       <!--SECCION 1-->
-      <div class="grid w-full grid-cols-12 bg-gray-100 justify-items-center" >
-        <div class="col-span-1">
-          <a class="relative inline-flex py-5 text-blue-600 hover:text-yellow-500 animate-ping modal-open"><i class="fas fa-info-circle"></i></a>
-        </div>
-        <div class="col-span-6 col-start-2 p-36 ">
-          <p class="italic text-gray-500">Contact</p>
-          <div class="animate-pulse">
-            <h1 class="mb-6 text-4xl font-bold text-yellow-500 "> I'm Daniet RL</h1>
-           </div>
-          <p class="text-sm italic text-gray-500"> Emprendedor-Ingeniero Informático</p>
-            <p class="mb-10 text-sm italic text-gray-500">Desaroolador Web</p>
-          <a href="" class="p-2 text-yellow-500 border-4 border-yellow-500 m-9 bg-gradient-to-bl hover:from-yellow-200 hover:to-yellow-600 hover:text-gray-600 " ><i class=" fas fa-address-card"></i> Contact </a>
-                  <!--MODAL-->
-                  <div class="fixed top-0 left-0 flex items-center justify-center w-full h-full opacity-0 pointer-events-none modal">
-                    <div class="absolute w-full h-full bg-gray-900 opacity-50 modal-overlay"></div>
-                    <div class="z-50 w-11/12 mx-auto overflow-y-auto bg-white rounded shadow-lg modal-container md:max-w-md">
-                      
-                      <div class="px-6 py-4 text-left modal-content">
-                          <!--Title-->
-                          <div class="flex items-center justify-between pb-3 mb-2">
-                            <p class="text-3xl font-bold text-center">Daniet Rosabal Lemus</p>
-                            <div class="z-50 cursor-pointer modal-close">
-                              <svg class="text-black fill-current" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
-                                <path d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z"></path>
-                              </svg>
-                            </div>
-                          </div>
-                          <!--Body-->
-                          <div>
-                            <span class="  leading-relaxed text-justify" > 
-                              Hola, mi nombre es <span class="bg-gray-300 text-blue-400  ml-1 px-1 rounded font-bold cursor-not-allowed">Daniet Rosabal Lemus</span>,
-                              emprendedor, <span class="bg-gray-300 text-blue-400  ml-1 px-1 rounded font-bold cursor-not-allowed">Ing</span>. informático, desarrollador web.
-                              Estoy dando mis primeros pasos como <span class="bg-gray-300 text-blue-500  ml-1 px-1 rounded  cursor-not-allowed">FreeLancer</span> 
-                              <span class="bg-gray-300 text-blue-500  ml-1 px-1 rounded  cursor-not-allowed">Developers</span>.
-                            </span>
-                            <br><br>
-                            <span class=" leading-relaxed text-justify">
-                              Graduado de la <span class="bg-gray-300 text-green-500  ml-1 px-1 rounded font-bold cursor-not-allowed">CUJAE</span>, tengo conocimientos de programación como:
-                              <span class="bg-gray-300 text-yellow-700  ml-1 px-1 rounded  cursor-not-allowed">HTML</span>,
-                              <span class="bg-gray-300 text-blue-500  ml-1 px-1 rounded  cursor-not-allowed">CSS</span>,
-                              <span class="bg-gray-300 text-yellow-500  ml-1 px-1 rounded  cursor-not-allowed">JS</span>,
-                              <span class="bg-gray-300  text-indigo-500 ml-1 px-1 rounded cursor-not-allowed">PHP</span> .
-                  
-                            </span>
-                            
-                            <span class="leading-relaxed text-justify">
-                              Experiencia en desarrollador con <span class="bg-gray-300 text-indigo-700 ml-1 px-1 rounded font-bold cursor-not-allowed">framework </span>
-                              <span class="bg-gray-300 text-blue-400  ml-1 px-1 rounded cursor-not-allowed">Yii(php)</span>
-                              <span class="bg-gray-300 text-yellow-600  ml-1 px-1 rounded  cursor-not-allowed">Bootstrap</span>  y 
-                              <span class="bg-gray-300 text-blue-500  ml-1 px-1 rounded  cursor-not-allowed">tailwind</span> (<span class="bg-gray-300 text-blue-400 ml-1 px-1 rounded ">css</span>).
-                  
-                            </span>
-                            <br><br>
-                            <span class="leading-relaxed  text-justify">
-                              En estos momentos estoy disponible a aquellos clientes que necesiten mis servicios,
-                              en un primer momento solo voy a dedicarme a estilizar los sitios web, es decir,
-                              el diseño gráfico del sitio (<span class="bg-gray-300 text-blue-400 py-1 px-2 rounded  cursor-not-allowed">menú</span>, 
-                              <span class="bg-gray-300 text-blue-400 ml-1 px-1 rounded cursor-not-allowed">banners</span>, 
-                              <span class="bg-gray-300 text-red-400 ml-1 px-1 rounded cursor-not-allowed">botones</span>, 
-                              <span class="bg-gray-300 text-indigo-400 ml-1 px-1 rounded cursor-not-allowed">imágenes</span>, 
-                              etc.), 
-                              todo de cara a la vista de la web. Los primeros 5 trabajo serán free, eso no significa 
-                              que no lleven todo el rigor y compromiso que me caracteriza.
-                  
-                            </span>
-                            <br>
-                              <span class="leading-relaxed text-justify">
-                              <h4 class="font-bold">Como será?</h4> 
-                              Existe dos formas, una, mediante una imagen <i class="fa fa-image text-indigo-500"></i> previamente diseñada de 
-                              como desea el cliente que se vea el sitio.
-                              La segunda creando la imagen<i class="fa fa-image text-indigo-500"></i> según la exigencia del cliente y posteriormente diseñando el sitio.
-
-                            </span>
-                            <br><br>
-                            <span class="underline text-red-500 text-center font-bold ">
-                              Todo trabajo empezara después de que las partes se encuentren en mutuo acuerdo.
-                            </span>
-                            <br><br>
-                              <span class="leading-relaxed text-justify">
-                              En portafolio <i class=" fas fa-address-card text-yellow-900"></i></i> podrá ver información sobre mi contacto, valoraciones e imágenes de algunos trabajos
-                              realizados, podrán chequear el estado de cumplimiento de la tarea e informado de cualquier novedad. 
-
-                            </span>
-                          </div>
-                          <!--Footer-->
-                          <div class="flex justify-center pt-5 grid grid-cols-5 "> 
-                            <i class="fab fa-html5 text-yellow-700 fa-2x hover:text-black"></i>
-                            <i class="fab fa-css3-alt text-blue-500 fa-2x hover:text-black"></i>
-                            <i class="fab fa-js-square text-yellow-400 fa-2x hover:text-black"></i>
-                            <i class="fab fa-php text-indigo-500 fa-2x hover:text-black"></i>
-                            <i class="fab fa-node text-green-600 fa-2x hover:text-black"></i>
-                          </div>
-                      </div>
-
-                    </div>
+      
+        <div class="flex grid w-full grid-cols-1 text-center bg-gray-700 border-b-2 border-yellow-600 md:grid-cols-1" >
+              <!--texto principal-->
+              <div class="">
+                  <p class="italic text-gray-500">Contact</p>
+                  <div class="animate-pulse">
+                    <h1 class="mb-6 text-4xl font-bold text-yellow-500 z-2">DNT| Website</h1>
                   </div>
-                  <!--END MODAL-->
+                  <p class="text-sm italic text-gray-500"> Emprendedor-Ingeniero Informático</p>
+                  <p class="mb-10 text-sm italic text-gray-500">Desarollador Web</p>
+                  <!--a href="" class="p-2 text-yellow-500 border-4 border-yellow-500 m-9 bg-gradient-to-bl hover:from-yellow-200 hover:to-yellow-600 hover:text-gray-600 " --><!--i class=" fas fa-address-card"></i> Contact </a-->
+              </div>
         </div>
-        <div class="w-full col-span-4 pb-3 bg-yellow-500">          
-        </div>
-      </div>
+     
+      
+
       <!--SECCION 2-->
-      <div class="grid grid-flow-col grid-rows-1 bg-fixed justify-items-center" style="background-image: url(img/fondo2.jpg);">
-          <div class="grid grid-cols-12 p-8 ">
-                  <div class="col-span-2 col-start-2 ">
-                    <div class="border-2 border-yellow-500">
-                      <img src="/img/4.png" class="relative bottom-3 left-3">
-                    </div>
-                  </div>
-                  <div class="col-span-6 ml-36 ">
-                    <div class="self-center">
-                        <div class="text-3xl font-extrabold ...">
-                          <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 to-yellow-600">
-                            PROTAFOLIO-WEBSITE
-                          </span>
-                        </div>
-                        
-                        <p class="text-sm italic text-white">informacion sobre el curriculum, lenguajes de programacion adquiridos </p>
-                        <p class="text-sm italic text-white "></p>
-                        <p class="text-sm italic text-white mb-14">proyectos en desarrollos</p>
-
-                      <div class="">
-                         <a class="inline-flex px-2 py-1 font-bold text-gray-600 bg-yellow-500 border-2 border-yellow-500 hover:border-yellow-500 hover:text-yellow-500 hover:bg-transparent">Curriculum</a>
-                        <a href="" class="px-20 py-1 text-yellow-500 border-2 border-yellow-500 text-md m-9 bottom-10 hover:bg-yellow-500 hover:text-gray-600" ><i class="fas fa-code fa-1x"></i></a>
-                      </div>
-                    </div>
-                  </div>
-          </div>
-      </div>
-      <!--SECCION 3-->
-      <div class="grid grid-flow-col grid-rows-2 bg-gray-100 justify-items-center">
-          <div class="grid grid-cols-2 gap-10 my-5" >
-              <div class="col-span-1 transition duration-700 ease-in-out hover:shadow-xl">
-                <img src="img/5.jpg" >
+     
+        <div class="flex flex-col text-center bg-gray-100 justify-items-center font-mono">
+          <!-- about me -->
+            <div class="grid self-center grid-cols-1 gap-10 mx-16 text-justify sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 ">
+              <div class="relative sm:relative sm:bottom-5 md:relative lg:relative xl:relative md:bottom-6 lg:bottom-6 xl:bottom-7 bottom-5">
+                <div class="mb-2 text-center">
+                  <i class="p-3 mr-8 text-yellow-600 bg-white border-2 rounded-full hover:bg-yellow-600 hover:border-yellow-600 hover:text-white fa fa-user"></i>
+                </div>
+                <div class="p-5 bg-white border-2 border-gray-200 border-solid shadow-2xl">
+                  <span class="leading-relaxed text-justify" > 
+                    Hola, mi nombre es <span class="px-1 ml-1 font-bold text-blue-400 bg-gray-300 rounded cursor-not-allowed">Daniet Rosabal Lemus</span>.
+                    Estoy dando mis primeros pasos como 
+                    <span class="px-1 ml-1 text-blue-500 bg-gray-300 rounded cursor-not-allowed">Desarollador Web</span>.
+                  </span>
+                </div>
               </div>
-              <div class="col-span-1 transition duration-700 ease-in-out hover:shadow-xl">      
-                <img src="img/2.jpg" >    
+              <div class="relative sm:relative sm:bottom-5 md:relative lg:relative xl:relative md:bottom-6 lg:bottom-6 xl:bottom-7 bottom-5">
+                <div class="mb-2 text-center">
+                  <i class="p-3 mr-8 text-yellow-600 bg-white border-2 rounded-full hover:bg-yellow-600 hover:border-yellow-600 hover:text-white fa fa-graduation-cap"></i>
+                </div>
+                <div class="p-5 bg-white border-2 border-gray-200 border-solid shadow-2xl">
+                  <span class="leading-relaxed text-justify ">
+                    Graduado de la <span class="px-1 ml-1 font-bold text-green-500 bg-gray-300 rounded cursor-not-allowed">CUJAE</span>, con conocimientos de lenguaje de programación como:
+                    <span class="px-1 ml-1 text-yellow-700 bg-gray-300 rounded cursor-not-allowed">HTML</span>,
+                    <span class="px-1 ml-1 text-blue-500 bg-gray-300 rounded cursor-not-allowed">CSS</span>,
+                    <span class="px-1 ml-1 text-yellow-500 bg-gray-300 rounded cursor-not-allowed">JS</span>,
+                    <span class="px-1 ml-1 text-indigo-500 bg-gray-300 rounded cursor-not-allowed">PHP</span> .
+                
+                    Experiencia en desarrollo con <span class="px-1 ml-1 font-bold text-indigo-700 bg-gray-300 rounded cursor-not-allowed">framework </span>
+                    <span class="px-1 ml-1 text-blue-400 bg-gray-300 rounded cursor-not-allowed">Yii(php)</span>
+                    <span class="px-1 ml-1 text-yellow-600 bg-gray-300 rounded cursor-not-allowed">Bootstrap</span>  y 
+                    <span class="px-1 ml-1 text-blue-500 bg-gray-300 rounded cursor-not-allowed">tailwind</span> (<span class="px-1 ml-1 text-blue-400 bg-gray-300 rounded ">css</span>).
+                  </span>
+                </div>
               </div>
-          </div> 
-          <div class="grid grid-cols-2 gap-10 mb-10 " >
-            <div class="col-span-1 hover:shadow-xl">
-              <img src="img/3.jpg" class="transition duration-700 ease-in-out hover:scale-50 ">
+              <div class="relative sm:relative sm:bottom-5 md:relative lg:relative xl:relative md:bottom-6 lg:bottom-6 xl:bottom-7 bottom-5">
+                <div class="mb-2 text-center">
+                  <i class="p-3 mr-8 text-yellow-600 bg-white border-2 rounded-full hover:bg-yellow-600 hover:border-yellow-600 hover:text-white fa fa-rocket"></i>
+                </div>
+                <div class="p-5 bg-white border-2 border-gray-200 border-solid shadow-2xl">
+                  <span class="leading-relaxed text-justify ">
+                    Me dedico al Desarrollo de <span class="px-1 ml-1 text-blue-500 bg-gray-300 rounded cursor-not-allowed">Sitios Web</span> y 
+                    <span class="px-1 ml-1 text-blue-500 bg-gray-300 rounded cursor-not-allowed">portafolios WEB</span> para aquellas personas que deseen promocionar su negocio por la
+                    <span class="px-1 ml-1 text-blue-500 bg-gray-300 rounded cursor-not-allowed">internet</span>. 
+                  </span>
+                </div>
+              </div> 
             </div>
-            <div class="col-span-1 hover:shadow-xl" >
-              <img src="img/1.jpg" class="transition duration-700 ease-in-out hover:scale-50 ">
+
+          <!-- Text Service -->
+            <div class="self-center p-5 mb-5">
+              <h1 class="text-4xl font-thin font-extrabold text-yellow-600 uppercase " >
+                <span class="px-10 pb-2 border-b-4 border-yellow-600 rounded-md">My Service</span>
+              </h1>
+            </div>
+
+          <!-- Single Service -->  
+          <div class="grid self-center gap-4 mx-20 mb-5 sm:gap-4 sm:grid-cols-1 sm:mx-12 md:grid-cols-2 lg:grid-cols-4 lg:gap-1 lg:mx-64 xl:grid-col-4 md:mx-20 md:gap-4 italic font-thin">
+            <!-- card-1 -->
+            <div class="pt-10 mx-2 "> 
+              <div class="self-center md:mb-4" id="dnt_icon_server">
+                <i class="fa fa-images p-3 mr-8 text-yellow-600 rounded-full "></i>
+              </div>
+              <div id="dnt_card_sever"> 
+                <div class="box border-2 text-gray-500 hover:bg-yellow-600 hover:text-white hover:shadow-2xl p-6 ">
+                    <div class="ribbon ribbon-top-right"><span class="bg-yellow-600 hover:bg-white hover:text-yellow-600 text-white">Develope</span></div>
+                    <p>Se diseña una imagen gráfica del Sitio Web con los colores, imágenes, banners y todos los elementos deseados.   </p>
+                </div>
+              </div>
             </div>
             
-        </div> 
-      </div>
-      
-
-
-      <!--footer-->
-      <div class="mb-16">
-        <footer class="text-gray-600 body-font bg-gray-700">
-          <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-            <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-              <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white p-2 bg-red-700 rounded-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                </svg>
-                <span class="ml-3 text-xl text-white">DEV</span>
-              </a>
-              <p class="mt-2 text-sm text-white">Air plant banjo lyft occupy retro adaptogen indego</p>
+            <!-- card-2 -->
+            <div class="pt-10 mx-2 ">
+              <div class="self-center md:mb-4" id="dnt_icon_server">
+                <i class=" fa fa-code p-3 mr-8 text-yellow-600 rounded-full "></i>
+              </div>
+              <div id="dnt_card_sever">
+                <div class="transition-colors bg-white border-2 text-gray-500 hover:bg-yellow-600 hover:text-white hover:shadow-2xl p-6 ">
+                    <h2 class="">Desarrollo de la Web</h2>
+                    <p>Desarrollo completo del sitio web utilizando las modernas tecnologías de desarrollo web, con framework css.  </p>  
+                </div>
+              </div>          
             </div>
-            <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
-              <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                <h2 class="title-font font-bold text-white tracking-widest text-md mb-3">CATEGORIES</h2>
-                <nav class="list-none mb-10">
-                  <li>
-                    <a class="text-white hover:text-red-300" href="#">First Link</a>
-                  </li>
-                  <li>
-                    <a class="text-white hover:text-red-300" href="#">Second Link</a>
-                  </li>
-                  <li>
-                    <a class="text-white hover:text-red-300" href="#">Third Link</a>
-                  </li>
-                  <li>
-                    <a class="text-white hover:text-red-300" href="#">Fourth Link</a>
-                  </li>
-                </nav>
+
+            <!-- card-3 -->
+            <div class="pt-10 mx-2 ">
+              <div class="self-center md:mb-4" id="dnt_icon_server">
+                <i class="fa fa-mobile-alt p-3 mr-8 text-yellow-600 rounded-full "></i>
               </div>
-              <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                <h2 class="title-font font-bold text-white tracking-widest text-md mb-3">CATEGORIES</h2>
-                <nav class="list-none mb-10">
-                  <li>
-                    <a class="text-white hover:text-red-300" href="#">First Link</a>
-                  </li>
-                  <li>
-                    <a class="text-white hover:text-red-300" href="#">Second Link</a>
-                  </li>
-                  <li>
-                    <a class="text-white hover:text-red-300" href="#">Third Link</a>
-                  </li>
-                  <li>
-                    <a class="text-white hover:text-red-300" href="#">Fourth Link</a>
-                  </li>
-                </nav>
-              </div>
-              <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                <h2 class="title-font font-bold text-white tracking-widest text-md mb-3">CATEGORIES</h2>
-                <nav class="list-none mb-10">
-                  <li>
-                    <a class="text-white hover:text-red-300" href="#">First Link</a>
-                  </li>
-                  <li>
-                    <a class="text-white hover:text-red-300" href="#">Second Link</a>
-                  </li>
-                  <li>
-                    <a class="text-white hover:text-red-300" href="#">Third Link</a>
-                  </li>
-                  <li>
-                    <a class="text-white hover:text-red-300" href="#">Fourth Link</a>
-                  </li>
-                </nav>
-              </div>
-              <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-                <h2 class="title-font font-bold text-white tracking-widest text-md mb-3">CATEGORIES</h2>
-                <nav class="list-none mb-10">
-                  <li>
-                    <a class="text-white hover:text-red-300" href="#">First Link</a>
-                  </li>
-                  <li>
-                    <a class="text-white hover:text-red-300" href="#">Second Link</a>
-                  </li>
-                  <li>
-                    <a class="text-white hover:text-red-300" href="#">Third Link</a>
-                  </li>
-                  <li>
-                    <a class="text-white hover:text-red-300" href="#">Fourth Link</a>
-                  </li>
-                </nav>
+              <div id="dnt_card_sever">
+                <div class="transition-colors bg-white border-2 text-gray-500 hover:bg-yellow-600 hover:text-white hover:shadow-2xl p-6 ">
+                    <h2 class="">Adaptado a Moviles</h2>
+                    <p>El Sitio es adaptativo a pantallas moviles, tablet y laptop sin importar la resolución.  </p>  
+                </div>
               </div>
             </div>
+
+            <!-- card-4 -->
+            <div class="pt-10 mx-2 ">
+              <div class="self-center md:mb-4" id="dnt_icon_server">
+                <i class="fa fa-cogs p-3 mr-8 text-yellow-600  rounded-full "></i>
+              </div>
+              <div id="dnt_card_sever">
+                <div class="transition-colors bg-white border-2 text-gray-500 hover:bg-yellow-600 hover:text-white hover:shadow-2xl p-6 " >
+                    <h2 class="">Update Website</h2>
+                    <p>Se brinda mantenimiento del sitio web desarrollados por nosotros, manteniendo actualizado los contenidos de la página.</p>  
+                </div>
+              </div>
+            </div>
+
           </div>
-          <div class="bg-gray-900">
-            <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-              <p class="text-white text-sm text-center sm:text-left"> 2021 ®DNT~Website
-                <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-400 ml-1" target="_blank">©Copyright</a>
-              </p>
-              <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-                <a class="text-gray-200">
-                  <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                  </svg>
-                </a>
-                <a class="ml-3 text-gray-200">
-                  <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                  </svg>
-                </a>
-                <a class="ml-3 text-gray-200">
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-                  </svg>
-                </a>
-                <a class="ml-3 text-gray-200">
-                  <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
-                    <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
-                    <circle cx="4" cy="4" r="2" stroke="none"></circle>
-                  </svg>
-                </a>
-              </span>
-            </div>
-          </div>
-        </footer>
-      </div>
-    
-
+          
+          <!-- Contact Address -->
+               <div class="relative self-center pt-10 bg-white border-2 border-solid md:shadow-4xl lg:shadow-4xl xl:shadow-4xl shadow-4xl md:p-6 md:relative md:top-8 lg:relative lg:top-10 xl:relative xl:top-20 top-6 sm:flex md:flex lg:flex xl:flex">
+                 
+                   <!-- telefono -->
+                   <div class="sm:flex md:flex-col lg:flex-row ">
+                    <div class="self-center md:mb-4">
+                      <i class="p-3 mr-8 text-yellow-600 bg-white border-2 rounded-full hover:bg-yellow-600 hover:border-yellow-600 hover:text-white fa fa-phone "></i> 
+                    </div> 
+                     <div class="self-center">
+                       <h4  class="mb-3 text-yellow-600 bg-gray-100 rounded-lg">My Phone</h4>
+                       <p class="italic">+53 53020309
+                     </div>
+                   </div>
+                   
+                   <!-- email -->
+                   <div class="mx-8 sm:flex md:flex-col lg:flex-row">
+                    <div class="self-center md:mb-4">
+                      <i class="p-3 mr-8 text-yellow-600 bg-white border-2 hover:bg-yellow-600 hover:text-white fa fa-envelope"></i> 
+                    </div> 
+                     <div class="self-center ">
+                       <h4 class="mb-3 text-yellow-600 bg-gray-100 rounded-lg">Email Address</h4>
+                       <p class="italic">moskovichrl@gmail.com</p>
+                     </div>
+                   </div>
+                   
+                   <!-- Address -->
+                   <div class="sm:flex md:flex-col lg:flex-row">
+                    <div class="self-center md:mb-4">
+                      <i class="p-3 mr-8 text-yellow-600 bg-white border-2 hover:bg-yellow-600 hover:text-white fa fa-map"></i> 
+                    </div> 
+                     <div class="self-center">
+                       <h4  class="mb-3 text-yellow-600 bg-gray-100 rounded-lg">My Location</h4>
+                       <p class="italic">La Habana <br>Cuba</p>
+                     </div>
+                   </div>
+                 
+                 
+               </div>
+        </div>
+     
+      <!--seccion==footer-->
+        <div class="container">
+            <footer class="text-gray-600 bg-gray-700 body-font ">
+                <div class="container flex flex-col flex-wrap px-5 py-10 mx-auto md:items-center lg:items-start md:flex-row md:flex-nowrap">
+                  <div class="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left">
+                    <a class="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 p-2 text-white bg-red-700 rounded-full" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                      </svg>
+                      <span class="ml-3 text-xl text-white">®DNT~Website</span>
+                    </a>
+                    <p class="mt-2 text-sm text-white">«Los perezosos pronto se empobrecen; los que se esfuerzan en su trabajo se hacen ricos»</p>
+                  </div>
+                </div>
+                <div class="bg-gray-900">
+                  <div class="container grid items-center grid-cols-1 grid-rows-3 md:grid-rows-1 md:grid-cols-3 sm:grid-rows-1 sm:grid-cols-3">
+                    <p class="text-sm text-center text-white sm:text-left"> 2021 ®DNT~Website
+                      <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="ml-1 text-gray-400" target="_blank">©Copyright</a>
+                    </p>
+                    <div class="grid grid-cols-5 justify-items-center md:grid-cols-5 "> 
+                      <i class="mx-12 text-yellow-700 fab fa-html5 fa-2x hover:text-white"></i>
+                      <i class="mx-12 text-blue-500 fab fa-css3-alt fa-2x hover:text-white"></i>
+                      <i class="mx-12 text-yellow-400 fab fa-js-square fa-2x hover:text-white"></i>
+                      <i class="mx-12 text-indigo-500 fab fa-php fa-2x hover:text-white"></i>
+                      <i class="mx-12 text-green-600 fab fa-node fa-2x hover:text-white"></i>
+                    </div>
+                    <span class="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
+                      <a class="text-gray-200 hover:text-yellow-600">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                      </a>
+                      <a class="ml-3 text-gray-200 hover:text-yellow-600">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                        </svg>
+                      </a>
+                      <a class="ml-3 text-gray-200 hover:text-yellow-600">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                          <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </svg>
+                      </a>
+                      <a class="ml-3 text-gray-200 hover:text-yellow-600">
+                        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                          <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                          <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                        </svg>
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </footer>
+        </div>
     </div>
-      
-
-       
-    
 </body>
-<script src="js/app.js"></script>
+
+  <!-- javascript -->
+    <script src="js/app.js"></script>
+    <script src="js/vendors/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
 
 </html>
