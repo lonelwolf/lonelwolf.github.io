@@ -143,8 +143,8 @@
     
   }
   #dnt_card_sever :hover{
-    animation: tada;
-    animation-duration: 3s;
+    animation: heartBeat;
+    animation-duration: 2s;
     
   }
   #dnt_icon_server{
@@ -154,6 +154,6 @@
   }
   #dnt_icon_server :hover{
     animation: shakeY;
-    animation-duration: 3s;
+    animation-duration: 4s;
     
   }
