@@ -1,3 +1,9 @@
+/*===============*/
+/*     estilos   */
+.gradient {
+  background: linear-gradient(90deg, #02f57c 0%, #2889f8 100%);
+}
+
 .box {
     position: relative;
     background: #fff;
